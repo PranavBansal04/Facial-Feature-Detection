@@ -83,4 +83,12 @@ The visualize_facial_landmarks function which is already included in the imutils
 
 
 
-
+Results on images:<br /><br />
+1.
+![alt text](https://github.com/PranavBansal04/Facial-Feature-Detection/blob/master/sample1.jpeg)
+<br />
+2.
+![alt text](https://github.com/PranavBansal04/Facial-Feature-Detection/blob/master/sample2.jpeg)
+<br />
+3.
+![alt text](https://github.com/PranavBansal04/Facial-Feature-Detection/blob/master/sample3.jpeg)
