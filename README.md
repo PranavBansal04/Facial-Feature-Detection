@@ -8,25 +8,41 @@ LIBRARIES USED : -<br /><br />
 3. Argparse:The argparse module makes it easy to write user-friendly command-line interfaces. The program defines what arguments it requires, and argparse will figure out how to parse those out of sys.argv. The argparse module also automatically generates help and usage messages and issues errors when users give the program invalid arguments.<br /><br />
 
 4. Imutils :A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.<br /><br />
+<br />
 
-
-FUNCTIONS:- <br /><br />
+FUNCTIONS:- <br />
+<br />
 
 1.dlib.get_frontal_face_detector() : Returns the default face detector.<br />
+<br />
+
 2.dlib.shape_predictor(): This object is a tool that takes in an image region containing some object and outputs a set of point locations that define the pose of the object.it identify the locations of important facial landmarks such as the corners of the mouth and eyes, tip of the nose, and so forth.<br />
+<br />
+
 3. cv2.VideoCapture(0): This will return video from the first webcam on your computer.<br />
+<br />
+
 4. imutils.resize() : it evaluate width only but not height. Imutils never used height all times. While OpenCV used both width and height or either height or width. <br />
+<br />
+
 5. cv2.cvtColor(image, cv2.COLOR_BGR2GRAY): For color conversion, we use the function cv2.cvtColor(input_image, flag) where flag determines the type of conversion. For BGR -> Gray conversion we use the flags cv2.COLOR_BGR2GRAY. Similarly for BGR -> HSV, we use the flag cv2.COLOR_BGR2HSV.<br />
+<br />
 
-6. face_utils.shape_to_np(shape): For each face region, we determine the facial landmarks of the ROI and convert the 68 points into a NumPy array<br />
+6. face_utils.shape_to_np(shape): For each face region, we determine the facial landmarks of the ROI and convert the 68 points into a NumPy array<br /><br />
 
-7. face_utils.visualize_facial_landmarks(image, shape): facial landmarks can be used to align facial images to a mean face shape, so that after alignment the location of facial landmarks in all images is approximately the same.<br />
+7. face_utils.visualize_facial_landmarks(image, shape): facial landmarks can be used to align facial images to a mean face shape, so that after alignment the location of facial landmarks in all images is approximately the same.<br /><br />
 
-8. cv2.imshow() :  to display an image in a window. The window automatically fits to the image size.First argument is a window name which is a string. second argument is our image. You can create as many windows as you wish, but with different window names.<br />
-9. cv2.destroyAllWindows() simply destroys all the windows we created.<br />
+8. cv2.imshow() :  to display an image in a window. The window automatically fits to the image size.First argument is a window name which is a string. second argument is our image. You can create as many windows as you wish, but with different window names.<br /><br />
+
+9. cv2.destroyAllWindows() simply destroys all the windows we created.<br /><br />
+
 10. cv2.waitKey() is a keyboard binding function. Its argument is the time in milliseconds. The function waits for specified milliseconds for any keyboard event. If you press any key in that time, the program continues. If 0 is passed, it waits indefinitely for a key stroke.<br />
+<br />
+<br /><br />
+
 
 Summary: <br /><br />
+<br />
 
 The working of the code depends on facial landmark indexes. The facial landmark detector implemented inside dlib produces 68 (x, y)-coordinates that map to specific facial structures. These 68 point mappings were obtained by training a shape predictor on the labeled iBUG 300-W dataset.<br />
 
