@@ -84,11 +84,11 @@ The visualize_facial_landmarks function which is already included in the imutils
 
 
 Results on images:<br /><br />
-1.
+1.<br />
 ![alt text](https://github.com/PranavBansal04/Facial-Feature-Detection/blob/master/sample1.jpeg)
 <br />
-2.
+2.<br />
 ![alt text](https://github.com/PranavBansal04/Facial-Feature-Detection/blob/master/sample2.jpeg)
 <br />
-3.
+3.<br />
 ![alt text](https://github.com/PranavBansal04/Facial-Feature-Detection/blob/master/sample3.jpeg)
