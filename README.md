@@ -1,5 +1,7 @@
 # Facial Feature Detection
 
+***I have used the shape_predictor_68_face_landmarks.dat file, on which the model is being trained.***
+
 LIBRARIES USED : -<br /><br />
 1.	Dlib :  dlib is, to directly quote its creators, a modern C++ toolkit containing ML algorithms and tools for creating complex software to solve real-world problems.<br /><br />
 
